@@ -1,0 +1,21 @@
+# Secrets; allow a template with placeholder values
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build output and logs
+build/
+dist/
+*.egg-info/
+*.log
